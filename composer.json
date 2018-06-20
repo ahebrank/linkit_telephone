@@ -4,6 +4,7 @@
   "type": "drupal-module",
   "homepage": "http://drupal.org/project/linkit_telephone",
   "require": {
+    "php": ">=7.1",
     "brick/phonenumber": "^0.2.0"
   }
 }
