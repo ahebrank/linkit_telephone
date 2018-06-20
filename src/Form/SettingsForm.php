@@ -29,11 +29,11 @@ class SettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $settings = $this->config('linkit_telephone.settings');
+    $config = $this->config('linkit_telephone.settings');
     $form['default_region_code'] = [
       '#type' => 'textfield',
       '#title' => t('Default region code'),
-      '#default_value' => $admin_configurations->get('default_region_code') ? $admin_configurations->get('default_region_code') : '',
+      '#default_value' => $config->get('default_region_code') ? $config->get('default_region_code') : '',
       '#size' => 5,
       '#maxlength' => 5,
       '#description' => t("Default region code for non-international numbers."),
