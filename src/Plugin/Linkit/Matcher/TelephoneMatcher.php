@@ -16,7 +16,7 @@ use Brick\PhoneNumber;
  *   label = @Translation("Telephone"),
  * )
  */
-class EmailMatcher extends MatcherBase {
+class TelephoneMatcher extends MatcherBase {
 
   /**
    * {@inheritdoc}
