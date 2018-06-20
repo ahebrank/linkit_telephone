@@ -6,7 +6,7 @@ use Drupal\Component\Utility\Html;
 use Drupal\linkit\MatcherBase;
 use Drupal\linkit\Suggestion\DescriptionSuggestion;
 use Drupal\linkit\Suggestion\SuggestionCollection;
-use Brick\PhoneNumber;
+use Brick\PhoneNumber\PhoneNumber;
 
 /**
  * Provides linkit matcher for telephone numbers.
