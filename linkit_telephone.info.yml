@@ -3,6 +3,7 @@ type: module
 description: 'Provides a telephone matcher for Linkit.'
 package: User interface
 core: 8.x
+core_version_requirement: ^8 || ^9
 configure: linkit_telephone.settings
 dependencies:
   - drupal:linkit
